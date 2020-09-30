@@ -1,38 +1,184 @@
-.App {
+* {
+  margin: 0
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+}
+
+.header {
+  border-bottom: solid 1px lightgray;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.input-header {
+  background-color: transparent !important;
+}
+
+.input-group-prepend {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.title {
+  font-size: larger;
+  letter-spacing: 0.7rem;
+  border: 2px solid black;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.icon {
+  padding: 1rem;
+}
+
+.navbar-set {
+  padding-top: 2rem;
+}
+
+.home {
+  margin-top: 2rem;
+  background-color: rgb(131, 228, 228);
+  height: 60vh;
+  align-items: center;
+}
+
+.home-text {
+  padding-top: 5rem;
+}
+
+.home-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.home-button {
+  background-color: rgba(76, 35, 190, 0.7) !important;
+}
+
+.home-icon {
+  color: rgba(76, 35, 190, 0.7) !important;
+}
+
+.home-bottom {
+  padding-top: 2rem;
+}
+
+.home-border {
+  border-bottom: solid 1px lightgray;
+}
+
+.collections {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.collections-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-1 {
+  background-image: url('srcimages/women.jpg');
+  height: 400px;
+  position: center;
+  background-size: cover;
+}
+
+.img-2 {
+  background-image: url('srcimages/children.jpg');
+  height: 400px;
+  position: center;
+  background-size: cover;
+}
+
+.img-3 {
+  background-image: url('srcimages/men.jpg');
+  height: 400px;
+  position: center;
+  background-size: cover;
+}
+
+.collections-title {
+  font-size: small;
+  padding: 0;
+  color: gray;
+  text-shadow: 0 0 2px black;
+}
+
+.collections-subtitle {
+  font-size: xx-large;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 0 2px white;
+}
+
+.img-1 > p {
+  padding-left: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img-2 > p {
+  padding-left: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img-3 > p {
+  padding-left: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.featured {
+  background-color: whitesmoke;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.featured-title {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.featured-text {
+  text-align: center;
+  color: rgba(76, 35, 190, 0.7) !important;
+}
+
+.sale {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px lightgray;
+}
+
+.sale-title {
+  color: rgba(76, 35, 190, 0.7) !important;
+}
+
+.sale-text {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sale-button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
